@@ -323,13 +323,14 @@ footer {
 
   .product-img1,.product-img2 {
     width: 96%;
+    height: 98%;
     padding: 8% 4%;
   }
 
   #product1,#product2 {
     width: 100%;
     padding: 8% 4%;
-    height: 400px;
+    height: 60%;
   }
 
   #product1 span,#product2 span {
@@ -337,20 +338,20 @@ footer {
   }
 
   .product1-text {
-    width: 60%;
+    width: 140px;
     text-align: center;
     height: auto;
-    padding: 6% 2%;
-    bottom: 32%;
-    left: -14%;
+    padding: 6% 1%;
+    bottom: 30%;
+    left: -4%;
   }
 
   .product2-text {
-    width: 60%;
+    width: 140px;
     height: auto;
-    padding: 6% 2%;
-    bottom: 32%;
-    right: -14%;
+    padding: 6% 1%;
+    bottom: 30%;
+    right: -4%;
     text-align: center;
   }
   
