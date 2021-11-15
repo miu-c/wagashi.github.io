@@ -162,6 +162,7 @@ h2 {
 
 .return {
   display: flex;
+  align-items: flex-start;
   flex-direction: column-reverse;
 }
 
@@ -323,7 +324,7 @@ footer {
 
   .product-img1,.product-img2 {
     width: 96%;
-    height: 98%;
+    height: auto;
     padding: 8% 4%;
   }
 
