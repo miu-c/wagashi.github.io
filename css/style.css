@@ -8,6 +8,11 @@ body {
   font-family: 'Noto Serif JP', serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 header {
   width: 100%;
   background-color: rgb(235, 214, 214);
@@ -30,7 +35,6 @@ header {
   outline-offset: -6px;
   font-size: 0.7rem;
   letter-spacing: 0.1rem;
-  color: #fff;
 }
 
 .header-right {
@@ -50,6 +54,10 @@ h1 {
   margin-left: 1.6rem;
 }
 
+.header-right * li a {
+  color: #333;
+}
+
 .fv-image {
   width: 44%;
   position: absolute;
@@ -64,13 +72,14 @@ h1 {
 }
 
 #news,#product1,#product2 {
-  background-color: #fdfdfd;
   width: 100%;
+  margin: 0 auto;
 }
 
 .wrapper {
-  width: 96%;
-  height: 600px;
+  width: 80%;
+  height: 640px;
+  padding: 6%;
   margin: 0 auto;
 }
 
@@ -84,10 +93,10 @@ h1 {
 }
 
 .news p {
-  margin-left: 4%;
+  margin-left: 2%;
 }
 .news h2 {
-  margin-left: 24%;
+  margin-left: 12%;
 }
 
 h2 {
@@ -101,20 +110,25 @@ h2 {
 }
 
 .news dt {
-  padding: 2% 10% 4% 2%;
+  padding: 2% 6% 4% 2%;
   border-right: 1px solid #000;
   font-size: 0.8rem;
 }
 
 .news dd {
-  margin-left: 10%;
+  margin-left: 6%;
   padding: 2%;
   margin-inline-start: 0;
 }
 
 #product1,#product2 {
   writing-mode: vertical-rl;
-  padding: 4%;
+  padding: 2%;
+  position: relative;
+}
+
+.p {
+  margin-right: 16%;
 }
 
 .product-img1,.product-img2 {
@@ -128,19 +142,14 @@ h2 {
   width: 100%;
 }
 
-.product {
-  position: relative;
-  margin: 0 4%;
-}
-
 .product1-text {
   width: 300px;
   writing-mode: horizontal-tb;
   background-color: rgba(206, 136, 136, 0.849);
   padding: 3% 4%;
   position: absolute;
-  bottom: 14%;
-  left: 40%;
+  bottom: 20%;
+  left: 38%;
   font-size: 1.2rem;
   color: #fff;
   text-align: center;
@@ -162,12 +171,7 @@ h2 {
 
 .return {
   display: flex;
-  align-items: flex-start;
   flex-direction: column-reverse;
-}
-
-#product2 {
-  position: relative;
 }
 
 .product2-text {
@@ -176,8 +180,8 @@ h2 {
   background-color: rgba(206, 136, 136, 0.849);
   padding: 3% 4%;
   position: absolute;
-  bottom: 14%;
-  right: 40%;
+  bottom: 20%;
+  right: 32%;
   font-size: 1.2rem;
   color: #fff;
   text-align: center;
@@ -186,6 +190,7 @@ h2 {
 }
 
 .shop-map {
+  width: 100%;
   position: relative; 
   padding-bottom: 28%;
   height: 0;
@@ -239,7 +244,6 @@ footer {
 
 .address-number {
   text-orientation: upright;
-  letter-spacing: -0.2rem;
   margin-bottom: 1rem;
 }
 
@@ -279,7 +283,7 @@ footer {
     left: 30%;
   }
   .wrapper {
-    width: 96%;
+    width: 92%;
     height: auto;
     margin: 0 auto;
   }
@@ -329,9 +333,9 @@ footer {
   }
 
   #product1,#product2 {
-    width: 100%;
+    width: 92%;
     padding: 8% 4%;
-    height: 60%;
+    height: 66%;
   }
 
   #product1 span,#product2 span {
@@ -343,15 +347,15 @@ footer {
     text-align: center;
     height: auto;
     padding: 6% 1%;
-    bottom: 30%;
-    left: -4%;
+    bottom: 40%;
+    left: 0;
   }
 
   .product2-text {
     width: 140px;
     height: auto;
     padding: 6% 1%;
-    bottom: 30%;
+    bottom: 40%;
     right: -4%;
     text-align: center;
   }
