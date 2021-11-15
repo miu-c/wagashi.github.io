@@ -69,7 +69,7 @@ h1 {
 }
 
 .wrapper {
-  width: 1024px;
+  width: 96%;
   height: 600px;
   margin: 0 auto;
 }
@@ -130,7 +130,7 @@ h2 {
 
 .product {
   position: relative;
-  margin: 0 40%;
+  margin: 0 4%;
 }
 
 .product1-text {
@@ -139,8 +139,8 @@ h2 {
   background-color: rgba(206, 136, 136, 0.849);
   padding: 3% 4%;
   position: absolute;
-  bottom: 10%;
-  left: 24%;
+  bottom: 14%;
+  left: 40%;
   font-size: 1.2rem;
   color: #fff;
   text-align: center;
@@ -175,8 +175,8 @@ h2 {
   background-color: rgba(206, 136, 136, 0.849);
   padding: 3% 4%;
   position: absolute;
-  bottom: 10%;
-  right: 24%;
+  bottom: 14%;
+  right: 40%;
   font-size: 1.2rem;
   color: #fff;
   text-align: center;
@@ -257,20 +257,32 @@ footer {
 }
 
 @media only screen and (max-width: 768px){
+  body {
+    width: 100%;
+  }
+
   header {
+    width: 100%;
     height: 550px;
   }
 
+  .header-right {
+    right: 4%;
+    top: 10%;
+  }
+
   .fv-image {
-    width: 70%;
+    width: 44%;
     position: absolute;
-    bottom:36%;
-    left: 12%;
+    bottom:10%;
+    left: 30%;
   }
   .wrapper {
-    width: 92%;
+    width: 96%;
     height: auto;
+    margin: 0 auto;
   }
+
   .news p {
     margin-left: 1%;
   }
@@ -279,13 +291,13 @@ footer {
   }
   
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .news {
-    padding: 16% 0% 30%;
+    padding: 8% 0%;
     margin: 0 auto;
-    height: 500px;
+    height: 380px;
   }
   
   .news p {
@@ -309,34 +321,41 @@ footer {
     display: none;
   }
 
-  .product {
-    position: relative;
-    margin: 0 4%;
+  .product-img1,.product-img2 {
+    width: 96%;
+    padding: 8% 4%;
   }
 
-  .product-img1,.product-img2 {
-    width: 80%;
-    padding: 2% 1%;
+  #product1,#product2 {
+    width: 100%;
+    padding: 8% 4%;
+    height: 400px;
+  }
+
+  #product1 span,#product2 span {
+    margin-top: 4%;
   }
 
   .product1-text {
-    width: 200px;
+    width: 60%;
     text-align: center;
-    height: 60px;
-    padding: 4% 2% 9%;
-    top: 34%;
-    left: 0;
+    height: auto;
+    padding: 6% 2%;
+    bottom: 32%;
+    left: -14%;
   }
 
   .product2-text {
-    width: 200px;
-    height: 60px;
-    padding: 4% 2% 9%;
-    top: 34%;
-    right: 0;
+    width: 60%;
+    height: auto;
+    padding: 6% 2%;
+    bottom: 32%;
+    right: -14%;
     text-align: center;
   }
+  
   .shop-map { 
+    padding-top: 8%;
     padding-bottom: 90%;
   }
 
